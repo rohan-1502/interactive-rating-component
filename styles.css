@@ -31,10 +31,6 @@ img {
 body {
   background-color: var(--very-dark-blue);
   color: var(--white);
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   font-family: var(--ffsans);
 }
 
@@ -184,5 +180,18 @@ transition: 0.2s ease-in-out;
 
   .rating button {
     padding: 0 1rem;
+  }
+
+  .rating button:hover {
+    background-color: var(--orange);
+    cursor: pointer;
+    color: white;
+  }
+
+  .btn-submit:hover,
+  .btn-submit:focus {
+    background-color: white;
+    color: var(--orange);
+    cursor: pointer;
   }
 }
