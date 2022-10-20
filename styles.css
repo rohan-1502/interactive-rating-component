@@ -175,17 +175,21 @@ transition: 0.2s ease-in-out;
   .main-container,
   .thank-you {
     margin: 4rem 2rem;
-    padding: 2rem;
+    padding: 1.5rem;
   }
 
   .rating button {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
   }
 
   .rating button:hover {
     background-color: var(--orange);
     cursor: pointer;
     color: white;
+  }
+
+  .btn-submit {
+    transition: none;
   }
 
   .btn-submit:hover,
